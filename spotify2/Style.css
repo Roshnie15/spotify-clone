@@ -110,14 +110,14 @@ body {
 .playlist-grid {
     display: flex;
     flex-wrap: wrap;  
-    gap: 25px;
+    gap: 20px;
 }
 
 .playlist-card {
     background-color: #181818;
     padding: 10px;
     border-radius: 8px;
-    width: 111px;
+    width: 120px;
     text-align: center;
     cursor: pointer;
 }
