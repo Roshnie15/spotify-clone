@@ -1,0 +1,1 @@
+This is a Spotify UI Clone built using HTML, CSS, and JavaScript. It replicates the layout and aesthetic of the Spotify web player, including a sidebar, featured album preview, playlists grid, and a functional-looking music player bar.
