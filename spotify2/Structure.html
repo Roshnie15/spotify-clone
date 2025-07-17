@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="spotify-clone">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="logo.png" alt="Spotify Logo">
+            </div>
+            <ul>
+                <li><i class="fas fa-home"></i> Home</li>
+                <li><i class="fas fa-search"></i> Search</li>
+                <li><i class="fas fa-broadcast-tower"></i> Radio</li>
+                <li><i class="fas fa-book"></i> Your Library</li>
+                <li><i class="fas fa-heart"></i> Liked Songs</li>
+                <li><i class="fas fa-list"></i> Playlists</li>
+                <li> Artists</li>
+                <li>Podcasts</li>
+            </ul>
+        </aside>
+        <main class="main-content">
+            <header class="top-nav">
+                <input type="text" id="searchBar" placeholder="Search">
+            </header>
+
+            <section class="album-preview">
+                <img src="skeletons.jpg" alt="Skeletons Album">
+                <div class="album-info">
+                    <h2>Skeletons</h2>
+                    <p>Brothers Osborne</p>
+                    <button class="play-btn">Play</button>
+                    <button class="save-btn">Save</button>
+                </div>
+            </section>
+
+            <section class="shortcuts">
+                <h3>Shortcuts</h3>
+                <div class="playlist-grid">
+                    <div class="playlist-card">
+                        <img src="cover1.jpg" alt="Mood Booster">
+                        <p>Mood Booster</p>
+                    </div>
+                    <div class="playlist-card">
+                        <img src="cover2.jpg" alt="Happy Hits">
+                        <p>Happy Hits!</p>
+                    </div>
+                    <div class="playlist-card">
+                        <img src="cover3.jpeg" alt="Top Hits">
+                        <p>Today's Top Hits</p>
+                    </div>
+                    <div class="playlist-card">
+                        <img src="cover4.jpeg" alt="Chill Vibes">
+                        <p>Chill Vibes</p>
+                    </div>
+                    <div class="playlist-grid">
+                    <div class="playlist-card">
+                        <img src="cover5.jpg" alt="Mood Booster">
+                        <p>Daily Mix 1</p>
+                    </div>
+                    <div class="playlist-card">
+                        <img src="cover6.jpeg" alt="Happy Hits">
+                        <p>Daily Mix 2</p>
+                    </div>
+                    <div class="playlist-card">
+                        <img src="cover.6.png" alt="Top Hits">
+                        <p>Upbeat Mix</p>
+                    </div>
+                    <div class="playlist-card">
+                        <img src="cover7.jpg" alt="Chill Vibes">
+                        <p>RADAR</p>
+                    </div>
+                   <div class="playlist-card">
+                        <img src="cover6.jpeg" alt="Happy Hits">
+                        <p>Daily Mix 2</p>
+                    </div> 
+                </div>
+            </section>
+        </main>
+        <footer class="player">
+            <div class="player-center">
+                <div class="player-controls">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i id="masterPlay" class="fa-regular fa-circle-play fa-2x"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+            </div>
+
+        </footer>
+        <div class="progress-container">
+            <input type="range" id="progressBar" min="0" max="100">
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
